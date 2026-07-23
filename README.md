@@ -1,6 +1,6 @@
 # owstats
 
-data analysis tool I made for fun to look at my Overwatch stats.
+data analysis tool I'm making for fun to look at my Overwatch stats.
 
 after games, it takes a screenshot of the scoreboard, splits it into rows and sections per player and per stat, and then uses OCR to read the text from each section
 
