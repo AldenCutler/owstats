@@ -10,4 +10,4 @@ wheels/
 .venv
 
 test_screenshots/
-*.db
+data/

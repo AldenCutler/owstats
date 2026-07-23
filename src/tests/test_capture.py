@@ -19,7 +19,7 @@ def test_capture_overwatch_screenshot():
 
 def test_split_screenshot():
     capture = Capture(window_title="Overwatch", output_dir=TMP_SCREENSHOTS_DIR)
-    screenshot_path = capture.capture_overwatch_screenshot()
-    capture.split_screenshot(screenshot_path)
+    screenshot = capture.capture_overwatch_screenshot()
+    capture.split_screenshot(screenshot)
     # Check if the player row files exist
     assert len(os.listdir(TMP_SCREENSHOTS_DIR)) > 0

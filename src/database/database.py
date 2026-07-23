@@ -1,8 +1,8 @@
 import sqlite3
 import sqlalchemy
+import os
 
-
-DB_PATH = "/home/alden/Projects/OWStats/data/owstats.db"
+DB_PATH = os.path.join(os.path.dirname(__file__), "../../data/owstats.db")
 
 def create_connection(db_file):
     """ create a database connection to a SQLite database """
@@ -13,6 +13,7 @@ def create_connection(db_file):
         print("Connection is established: Database is created in memory")
     except sqlite3.Error as e:
         print(e)
+        return None, None
     return conn, cursor
 
 def init_db_tables(conn, cursor):
