@@ -1,0 +1,17 @@
+[project]
+name = "owstats"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "easyocr>=1.7.2",
+    "ipykernel>=7.3.0",
+    "pandas>=3.0.5",
+    "pillow>=12.3.0",
+    "pyautogui>=0.9.54",
+    "pydantic>=2.13.4",
+    "pygetwindow>=0.0.9",
+    "pytest>=9.1.1",
+    "sqlalchemy>=2.0.51",
+]
