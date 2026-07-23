@@ -7,11 +7,13 @@ requires-python = ">=3.12"
 dependencies = [
     "easyocr>=1.7.2",
     "ipykernel>=7.3.0",
+    "opencv-python>=5.0.0.93",
     "pandas>=3.0.5",
     "pillow>=12.3.0",
     "pyautogui>=0.9.54",
     "pydantic>=2.13.4",
     "pygetwindow>=0.0.9",
+    "pytesseract>=0.3.13",
     "pytest>=9.1.1",
     "sqlalchemy>=2.0.51",
 ]
